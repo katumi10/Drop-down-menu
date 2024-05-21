@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    background: black;
+    color: white;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul li:hover{
+   background-color: rgb(23, 0, 128);
+   color: white;
+   cursor: pointer;
+}
+.dropdown{
+    display: none;
+}
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left:- 0.29cm;
+    margin-top: 0.27cm;
+    cursor: pointer;
+}
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+.dropdown ul li{
+    display: block;
+}
+.dropdown2{
+   display:none;
+}
+.dropdown ul li:hover .dropdown2{
+    display: block;
+    position: absolute;
+    margin-left: 3.4cm;
+   margin-top: -0.7cm;
+   cursor: pointer;
+}
